@@ -1,0 +1,10 @@
+<%= form_for @task do |todo| %>
+  <%= todo.label :title %>
+  <%= todo.text_field :title %>
+
+  <%= todo.label :details %>
+  <%= todo.text_field :details %>
+
+  <%= todo.submit %>
+<% end %>
+
